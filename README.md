@@ -1,8 +1,9 @@
 Details of respiratory motion resistant DCE-MRI and DW-MRI acquisition methods and analysis of the data described below have been published recently [1, 2]. 
-Under “Representative Preclinical Datasets from 9.4T” tab, a DATA folder contains 3 subfolders which were obtained from the same mouse at baseline (day0) then day7 and day14:
+Under “Representative Preclinical Datasets from 9.4T” tab, both the data and dicom folders contains 3 subfolders which were obtained from the same mouse at baseline (day0) then day7 and day14:
 - KPC-27583-Pre (data from day0 pretreatment), 
 - KPC-27583-Post-1 (day7) 
 - KPC-27583-Post-2 (day14)
+The dicom directory contains unprocessed images provided by the scanner while the data directory contains nifti volumes created from the dicom files as well as derived maps.
 
 The MRI protocol is to stage the tumor size (by T2W) followed by DW-MRI and DCE-MRI in the same imaging session on day0 and day7 while only tumor size and DW-MRI on day14. Hence the day0 and day7 folder contains three subfolders while the day14 folder contains only two subfolders.  
 - “DCE” subfolder includes “images” and “analysis” folders with the contents described below:
